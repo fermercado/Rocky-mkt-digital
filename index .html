@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/6f8ceca14d.js" crossorigin="anonymous"></script>
 
 
@@ -36,25 +37,35 @@
 
 
 <body>
-    <section class="section-home-container">
+    <section id="home" class="section-home-container">
         <header class="header">
             <div class="header-container">
-                <div class="img-menu">
-                    <img src="imagens/web/logo.png" alt="logo-menu">
+                <div>
+                   <a href="#home" class="img-menu"><img src="imagens/web/logo.png" alt="logo-menu"></a> 
                 </div>
-                <nav class="menu-options">
-                    <ul>
+                <nav id="nav">
+                    <button id="btn-mobile">
+                        <span id="hamburguer"></span>
+                    </button>
+                    <ul class="menu-options" >
+                        
+                        <li><a href="#home" class="options-mobile">HOME</a></li>
+                        <hr>
                         <li><a href="#about" class="options">SOBRE A ROCKY</a></li>
+                        <hr>
                         <li><a href="#services"class="options">SERVIÇOS</a></li>
+                        <hr>
                         <li><a href="#differential" class="options">DIFERENCIAIS</a></li>
+                        <hr>
                         <li><a href="#registration" class="options">TRABALHE CONOSCO</a></li>
+                        <hr>
                         <li><a href="#registration" class="options">CONTATO</a></li>
+                        <hr>
                         <li><a href="https://blog.rocky.ag/pagina/1" class="options">BLOG</a></li>
                     </ul>
                 </nav>
 
             </div>
-            
         </header>
         <div class="home-tittle">
             <h1>FULL DIGITAL PERFORMANCE</h1>

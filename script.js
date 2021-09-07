@@ -1,6 +1,6 @@
 //scrollSmooth
 
-const menuOptions = document.querySelectorAll('.button-footer, .menu-options a[href^="#"]');
+const menuOptions = document.querySelectorAll('.button-footer, .img-menu a, .menu-options a[href^="#"]');
 
 menuOptions.forEach(options => {
     options.addEventListener('click', scrollToIdOnClick);
@@ -14,7 +14,7 @@ function getScrollTopByHref(element){
 
 function scrollToIdOnClick(event) {
     event.preventDefault();
-    const to = getScrollTopByHref(event.target);
+    const to = getScrollTopByHref(event.target) - 110;
     
     scrollToPositon(to)
 }
@@ -49,4 +49,12 @@ function smoothScrollTo(endX, endY, duration) {
     }, 1000 / 60); // 60 fps
   }; 
 
-  
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(){
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+
+}
+
+btnMobile.addEventListener('click' , toggleMenu);

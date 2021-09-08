@@ -6,6 +6,14 @@
         font-size: 52%
  
     }
+
+
+    .home-footer{
+        margin-top:0;
+        height: 220px;
+       
+    }
+
     .registration-form{   
         max-width: 550px;
          height: auto;
@@ -43,14 +51,53 @@
         margin-left: 0;
     }
 
+    
+
 
 }
 
-@media (max-width:1348px){
-    html{
-        font-size: 42%;
+
+@media (max-width:1600px){
+    .services-descriptions{
+        max-width: 1500px;
+        display: flex;
+        
     }
+
+    h3{
+        font-size: 2.8rem; 
+        margin-bottom: 30px;
+        
+     }
+     
+    .services-descriptions p{
+         font-size: 2.5rem;
+         padding: 40px 10px ;
+         margin-bottom: 0;
+    }
+
+    .img-services{
+        min-width: 400px;
+    }
+
+ 
+
+
+    .differential-columns{
+        min-width: 350px;
+    }
+        
+
+
 }
+
+@media (max-width:1340px){
+    .options{
+        font-size: 1.8rem;
+    }
+
+}
+
 
 @media (max-width:1024px){
     
@@ -161,7 +208,8 @@
         
     }
 
-    /*Responsive*/
+   
+
 
 
     
@@ -191,7 +239,7 @@
     .home-footer{
         max-width: 75%;
         margin: auto;
-        height: 330px;
+        height: 280px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -451,19 +499,9 @@
         font-size: 35px;
         
     }
-    
 
+   
 
-    
- 
 
 }   
-
-@media (max-width:768px){
-
-    
-     
-    
-
-}
 

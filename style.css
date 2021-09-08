@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    
 
 }
 
@@ -26,13 +27,15 @@ body{
     position: fixed;
     top: 0;
     left: 0;   
+   
 }
 
 
 .header-container{
     display: flex;
     margin: auto;
-    max-width: 90%;
+    width: 90%;
+    max-width: 1640px;
     justify-content: space-between;
     align-items: center;
     height: 112px;  
@@ -43,6 +46,7 @@ body{
 .menu-options{
     display: flex;
     list-style: none;
+   
    
 
    
@@ -68,6 +72,9 @@ body{
     cursor: pointer;
     
     
+}
+#btn-mobile{
+    display: none;
 }
 
 hr{
@@ -96,7 +103,7 @@ hr{
     flex-wrap: wrap;
     color: #ffff;
     width: 1172px;
-    height: 369px;
+    height: auto;
     margin: auto;
     font-size: 9.5rem;
     text-align: center;
@@ -126,6 +133,10 @@ hr{
     flex-wrap: wrap;
 }
 
+.description-footer-mobile{
+    display: none;
+}
+
 color{
     color: #efe60b;
     font-weight: bold;
@@ -153,6 +164,7 @@ color{
 }
 
 .main-container{
+    width: 90%;
     max-width: 1640px;
     height: 3160px;
     margin: auto;
@@ -170,7 +182,7 @@ color{
 
 h2{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 6.0rem;
  
 
 }
@@ -178,9 +190,10 @@ h2{
 .about-description-container{
     background-color: #fff;
     width: 1211px;
-    height: 612px;
+    height: auto;
     padding: 46px;
     box-shadow: 0px 0px 30px #0000004D;
+    
 
 }
 
@@ -202,7 +215,18 @@ h2{
     text-align: left;
 }
 
+
+.about-description-mobile{
+    display: none;
+
+}
+
+.about-description-center-mobile{
+    display: none;
+}
+
 .services-container{
+    width: 100%;
     max-width: 1640px;
     height: 851px;
     margin-top: 200px;
@@ -213,8 +237,9 @@ h2{
 }
 
 .services-descriptions{
+    width: 100%;
     max-width: 1640px;
-    height: 648px;
+    height: auto;
     display: flex;
     justify-content: space-between;
 }
@@ -223,23 +248,28 @@ h2{
     background-image: url(imagens/web/s3\ ft1.png);
     width:514px;
     height: 648px;
+    
 }
 .digital-media{
     background-image: url(imagens/web/s3\ ft2.png); 
     width:514px;
     height: 648px;
+    margin-left: 30px;
+    margin-right: 30px;
+   
    
 }
 .technological-implementations{
     background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/web/s3\ ft3.png);
-    width:514px;
+    width:500px;
     height: 648px;
-  
+    
+   
   
 }
 
 .img-services{
-    background-size: 555px 698px;
+    background-size: 558px 700px;
     background-position: center;
     border-radius: 33px;
     box-shadow: 0px 3px 15px #0000001A;
@@ -248,10 +278,11 @@ h2{
 }
 
 h3{
-   font-size: 30px; 
+   font-size: 3.0rem; 
    color: #efe60b;
    text-align: center;
    margin-bottom: 50px;
+   height: auto;
 }
 
 .services-descriptions p{
@@ -262,9 +293,11 @@ h3{
     line-height: 30px;
     padding: 20px 58px ;
     margin-bottom: 10px;
+    height: auto;
 }
 
 .differential-container{
+    width: 100%;
     max-width: 1640px;
     height: 873px;
     margin-top: 200px;
@@ -274,6 +307,7 @@ h3{
 }
 
 .differential-column-container{
+    width: 100%;
     max-width: 1640px;
     height: 670px;
     display: flex;
@@ -291,7 +325,7 @@ h3{
     width: 389px;
     height: 660px;
     border-radius: 51px;
-    padding: 95px 65px 85px 65px;
+    padding: 80px 40px;
     box-shadow: 0px 3px 15px #0000001A;
    
     
@@ -299,10 +333,14 @@ h3{
 
 .differential1{
     background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/web/s4\ ft1.png);
+   
 }
 .differential2{
     background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/web/s4\ ft2.png);
+    margin-left: 80px;
+    margin-right: 80px;
 }
+
 .differential3{
     background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/web/s4\ ft3.png);
 }
@@ -342,7 +380,7 @@ h3{
 }
 
 .registration-description-container{
-    max-width: 1640px;
+    max-width: 90%;
     height: 785px;
     display: flex;
     flex-direction: row;
@@ -396,6 +434,7 @@ h3{
     border: 1px solid #fff;
     margin-left:75px;
     margin-right: 75px;
+    flex: 0 0 auto;
 }
 
 .registration-icon{
@@ -427,6 +466,9 @@ h3{
     line-height: 30px;
    
 }
+.registration-description-mobile{
+    display:none;
+}
 
 .registration-description-text1{
     color: #efe60b;
@@ -442,6 +484,7 @@ h3{
     width: 681px;
     height: 785px;
     padding: 30px;
+    flex: 0 1 auto;
 
 }
 
@@ -451,6 +494,7 @@ h3{
     height: 76px;
     margin-bottom: 40px;
     padding-left: 10px;
+    align-items: center;
 
 }
 

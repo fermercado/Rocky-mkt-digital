@@ -1,9 +1,65 @@
+
+
+
+@media (max-width:1686px){
+    html{
+        font-size: 52%
+ 
+    }
+    .registration-form{   
+        max-width: 550px;
+         height: auto;
+         
+     
+     }
+
+     .form-description{
+        width: 495px;
+        height: 76px;
+        
+    
+    }
+    
+    .form-messenger{
+      
+        width: 495px;
+        height: auto;
+        
+    
+    }
+    
+    .form-button{
+       
+        width: 495px;
+        height: 77px;
+     
+        
+    }
+
+     
+     .registration-base{
+        width: auto;
+        height: auto;
+        margin-left: 0;
+    }
+
+
+}
+
+@media (max-width:1348px){
+    html{
+        font-size: 42%;
+    }
+}
+
 @media (max-width:1024px){
     
     html{
-        font-size: 55%;
+        font-size: 53%;
     }
-    
+
+    /* menu mobile */
+
     #btn-mobile{
         background-color: transparent;
         border: none;
@@ -32,6 +88,7 @@
 
     .header{
         display: block;
+        width: 100%;
     }
 
     .menu-options{
@@ -98,9 +155,315 @@
     }
 
     #nav.active .menu-options{
-        height: 50vh;
+        height: 500px;
+        max-height: 500px;
         visibility: visible;
         
     }
 
+    /*Responsive*/
+
+
+    
+    
+    body{
+        background-image: none;
+    }
+
+
+    .section-home-container{
+        background-image: url(imagens/mobile/s1\ mobile.png);
+       
+        
+    }
+    
+
+    .home-tittle{
+        max-width: 100%;
+        font-size: 5.5rem;
+        text-align: center;
+        line-height: 100px;
+        margin-top: 200px;
+        height: 300px;
+       
+    }
+
+    .home-footer{
+        max-width: 75%;
+        margin: auto;
+        height: 330px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .description-footer{
+      display: none;
+     
+    }
+    .description-footer-mobile{
+        display: block;
+        color: #ffff;
+        font-size: 2.0rem;
+        line-height: 40px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+
+    .main-container{
+        height: 480vh;
+        padding-top: 0;
+     
+       
+    }
+
+    .about-container{
+        height: 95vh;
+        max-width: 100%;
+        margin: auto;
+      
+      
+        
+    }
+   
+        
+    .about-description-container{
+        width: 650px;
+        height: 620px;
+        margin: auto;
+
+    }
+
+    .about-description{
+        display: none;
+    
+    
+    }
+
+    .about-description-center{
+        display: none;
+   
+    }
+    .about-description-mobile{
+        display: block;
+        font-size: 2.0rem;
+        font-weight: normal;
+        color: #000;
+        margin-bottom: 25px;
+        line-height: 30px;
+        text-align: left;
+    
+    }
+
+    .about-description-center-mobile{
+        display: block;
+        font-size: 2.0rem;
+        font-weight: bold;
+        margin-bottom: 25px;
+        line-height: 30px;
+        text-align: left;
+    }
+
+
+    .services-container{
+        
+        width: 90%;
+        height: 190vh;
+        margin: auto;
+
+    }
+
+
+    .services{
+        background-image: url(imagens/mobile/s3\ ft1.png);
+        width:500px;
+        height: 450px;
+    }
+
+    .digital-media{
+        background-image: url(imagens/mobile/s3\ ft2.png); 
+        width:500px;
+        height: 450px;
+       
+    }
+    .technological-implementations{
+        background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/mobile/s3\ ft3.png);
+        width:500px;
+        height: 430px;
+        background-position: center
+      
+    }
+
+    .services-descriptions{
+        max-width: 750px;
+        height: 1500px;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h2{ 
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    h3{
+        margin-bottom: 20px;
+    }
+
+    .img-services{
+        background-size: 800px 800px;
+        margin-bottom: 50px;
+        border-radius: 60px;
+        
+    
+    }
+
+    .services-descriptions p{
+        font-size: 2.5rem;
+        font-weight: 300 ;  
+        padding: 15px ;    
+    }
+
+
+    .differential-container{
+        margin: auto;
+        max-width: 750px;
+        height: 1750px;
+    
+    }
+
+    .differential-column-container{
+        align-items: center;
+        margin: auto;
+        width: 500px;
+        height: 1500px;
+        flex-direction: column;
+    
+    }
+
+    .differential-columns{ 
+        text-align: center;
+        height: 750px;
+        border-radius: 60px;
+        padding: 80px 40px;
+
+       
+        
+    }
+
+    .differential1{
+        background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/mobile/s4\ ft1.png);
+    
+        
+    }
+
+    .differential2{
+        background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/mobile/s4\ ft2.png);
+      
+    }
+    .differential3{
+        background: linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(imagens/mobile/s4\ ft3.png);
+    }
+
+    .differential-img{
+        width: 500px;
+        background-repeat: no-repeat;
+        background-position:cover;
+        background-position: center;
+        background-size: 600px 600px;
+        margin-bottom: 50px;
+    }
+
+
+    .registration-container{
+        height: auto;
+        padding-top:40px;
+           
+    }
+
+    .registration-description-header{
+        height: 240px;
+    }
+
+    
+    .registration-description-container{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+          
+    }
+
+    .registration-base{
+        width: 572px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .registration-description{
+        display: none;
+    }
+
+    .registration-description-mobile{
+        display: block;
+        width: 600px;
+        height: 300px;
+        color: #fff;
+        font-size: 2.8rem;
+        font-weight: bold;
+        line-height: 30px;
+        text-align: center;
+    }
+    .registration-description-text1-mobile{
+        color: #efe60b;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .registration-description-text2-mobile{
+        color: #1CD4E9;
+    }
+
+    .registration-form{   
+       width: 1024px;
+        height: 760px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    
+    }
+
+    form{
+        display: contents;
+    }
+
+    .form-messenger{
+
+    margin-bottom: 50px;
+    
+    
 }
+
+    .form-button{
+        height: 97px;
+        font-size: 35px;
+        
+    }
+    
+
+
+    
+ 
+
+}   
+
+@media (max-width:768px){
+
+    
+     
+    
+
+}
+

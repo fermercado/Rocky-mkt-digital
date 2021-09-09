@@ -1,4 +1,6 @@
-//scrollSmooth
+
+
+// ROLAGEM SUAVE PARA OS ITENS DA PAGINA
 
 const menuOptions = document.querySelectorAll('.button-footer, .img-menu a, .menu-options a[href^="#"]');
 
@@ -32,7 +34,7 @@ function smoothScrollTo(endX, endY, duration) {
   
     duration = typeof duration !== 'undefined' ? duration : 800;
   
-    // Easing function
+    
     const easeInOutQuart = (time, from, distance, duration) => {
       if ((time /= duration / 2) < 1) return distance / 2 * time * time * time * time + from;
       return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
@@ -48,6 +50,9 @@ function smoothScrollTo(endX, endY, duration) {
       window.scroll(newX, newY);
     }, 1000 / 60); // 60 fps
   }; 
+
+
+  // MENU HAMBURGUER
 
 const btnMobile = document.getElementById('btn-mobile');
 

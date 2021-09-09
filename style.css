@@ -21,6 +21,8 @@ body{
 
 }
 
+/* MENU */
+
 .header{
     background-color: rgba(0,0,0,.5);
     width: 100%;
@@ -86,6 +88,7 @@ hr{
     transition: .3s ease all;
 }
 
+/* PAGINA INICIAL */
 
 .section-home-container{
     background-image: url(imagens/web/s1\ ft1.png);
@@ -173,6 +176,8 @@ color{
     padding-top: 83px;
 }
 
+/* SOBRE A ROCKY */
+
 .about-container{
     width: 1211px;
     height: 815px;
@@ -226,6 +231,8 @@ h2{
 .about-description-center-mobile{
     display: none;
 }
+
+/* SERVIÇOS DA ROCKY */
 
 .services-container{
     width: 100%;
@@ -302,6 +309,8 @@ h3{
     height: auto;
 }
 
+/* DIFERENCIAS DA ROCKY */
+
 .differential-container{
     width: 100%;
     max-width: 1640px;
@@ -376,6 +385,8 @@ h3{
   
 }
 
+/* FORMULARIO */
+
 .registration-container{
     background-color:#000000E6;
     width: 100%;
@@ -440,7 +451,7 @@ h3{
     border: 1px solid #fff;
     margin-left:75px;
     margin-right: 75px;
-    flex: 0 0 auto;
+   
 }
 
 .registration-icon{
